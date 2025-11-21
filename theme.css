@@ -1364,6 +1364,16 @@ body:not(.nav-ready) .navlinks {
 .post-wrap .post .post-footer .post-footer-actions .post-buttons {
   	margin-left: -3px;
 }
+.post-buttons li + li {
+	margin-right: 5px;
+}
 .post-buttons a, .post-buttons span {
-  	padding: 3px;
+  	padding: 0;
+}
+.post-buttons span i, .post-buttons a i {
+	display: none;
+}
+.post-buttons a::before {
+	font-family: 'Font Awesome 7 Pro';
+  	padding: 0 3px;
 }
