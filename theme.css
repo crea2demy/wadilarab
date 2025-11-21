@@ -1325,7 +1325,7 @@ body:not(.nav-ready) .navlinks {
 .rep-button.fa_dislike {
 	  display: none;
 }
-.rep-button + .rep-button, .post-buttons a + a, .post-buttons span + a, .post-buttons a + span {
+.rep-button + .rep-button {
 	  margin-left: 5px;
 }
 .rep-button:hover {
