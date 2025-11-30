@@ -1452,3 +1452,15 @@ body:not(.nav-ready) .navlinks {
   	content: 'IP';
   	font-family: Tahoma;
 }
+.fa_like_list, .fa_dislike_list, .option_voters_list {
+	background-color: rgb(245, 245, 245);
+	border: 1px solid rgb(224, 224, 224);
+	border-right: 2px solid rgb(77, 115, 38);
+	color: rgb(20, 20, 20);
+	display: flex;
+    align-items: center;
+	font-size: 12px;
+	margin-top: 10px;
+    padding: 6px;
+	transition: all .25s ease, -xf-opacity .25s ease;
+}
