@@ -1288,7 +1288,7 @@ body:not(.nav-ready) .navlinks {
   	margin: 10px 0;
 }
 .post-wrap .post .post-content .post-lastEdit {
-	color: rgb(128 128 128);
+	color: rgb(128, 128, 128);
 	font-size: 11px;
 	margin-top: auto;
 	text-align: left;
