@@ -1145,13 +1145,11 @@ body:not(.nav-ready) .navlinks {
 	  vertical-align: unset;
 }
 .topic-actions .quick-nav-topics a {
-	  background-color: var(--white-color);
+	background-color: var(--white-color);
   	border-bottom-color: rgb(201, 201, 201);
-  	border-left-color: rgb(201, 201, 201);
-  	border-right-color: rgb(227, 227, 227);
   	border-top-color: rgb(227, 227, 227);
   	border-style: solid;
-  	border-width: 1px;
+  	border-width: 1px 0;
   	color: rgb(38, 83, 115);
   	display: inline-flex;
   	align-items: center;
@@ -1159,9 +1157,12 @@ body:not(.nav-ready) .navlinks {
   	text-align: center;
 }
 .topic-actions .quick-nav-topics a[title="استعرض الموضوع السابق"] {
+	border-right: 1px solid rgb(227, 227, 227);
   	border-radius: 0 4px 4px 0;
 }
 .topic-actions .quick-nav-topics a[title="استعرض الموضوع التالي"] {
+	border-left: 1px solid rgb(227, 227, 227);
+    border-right: 1px solid rgb(201, 201, 201);
   	border-radius: 4px 0 0 4px;
 }
 .topic-actions .quick-nav-topics a:hover {
