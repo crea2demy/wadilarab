@@ -1296,7 +1296,7 @@ body:not(.nav-ready) .navlinks {
   	height: auto;
   	margin: 0;
 	margin-top: auto;
-  	padding: 6px;
+  	padding: 0;
 }
 .post-wrap .post .post-footer .post-footer-actions::before, .post-wrap .post .post-footer .post-footer-actions::after {
 	content: '';
@@ -1332,7 +1332,7 @@ body:not(.nav-ready) .navlinks {
 .rep-button + .rep-button {
 	margin-left: 5px;
 }
-.rep-button:hover {
+.rep-button:hover, .post-buttons a:hover, .post-buttons span:hover {
   	box-shadow: none;
   	color: rgb(64, 138, 191);
 	filter: none;
@@ -1373,6 +1373,13 @@ body:not(.nav-ready) .navlinks {
 }
 .post-buttons a, .post-buttons span {
   	padding: 0;
+}
+.post-buttons a:hover, .post-buttons span:hover {
+	background-color: unset;
+}
+.post-buttons .selected {
+	background-color: unset;
+	color: #8fc758 !important;
 }
 .post-buttons span i, .post-buttons a i {
 	display: none;
