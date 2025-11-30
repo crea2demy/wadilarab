@@ -1287,6 +1287,39 @@ body:not(.nav-ready) .navlinks {
 	flex-grow: 1;
   	margin: 10px 0;
 }
+.post-wrap .post .post-content fieldset {
+	border: 1px solid rgb(214, 214, 214);
+	border-radius: 4px;
+	margin-top: auto;
+	padding: 5px 8px 8px 8px;
+}
+.post-wrap .post .post-content fieldset legend {
+	color: rgb(128, 128, 128);
+	display: table;
+	font-size: 14px;
+	margin: 0 8px;
+	max-width: 100%;
+	padding: 0 8px;
+	white-space: normal;
+}
+.post-wrap .post .post-content fieldset legend a {
+	text-decoration: none;
+}
+.post-wrap .post .post-content fieldset .post-signature {
+	color: rgb(128, 128, 128);
+    font-size: 12px;
+	margin-top: 10px;
+    max-height: 180px;
+    min-height: 80px;
+	overflow: auto;
+}
+.post-wrap .post .post-content fieldset .post-signature br:first-child, .post-wrap .post .post-content fieldset .post-signature > center + br {
+	display: none;
+}
+.post-wrap .post .post-content fieldset .post-signature img {
+	display: inline-block;
+    max-width: 100%;
+}
 .post-wrap .post .post-footer {
   	background-color: unset;
   	border-top: none;
