@@ -1287,6 +1287,15 @@ body:not(.nav-ready) .navlinks {
 	flex-grow: 1;
   	margin: 10px 0;
 }
+.post-wrap .post .post-content .post-lastEdit {
+	color: rgb(128 128 128);
+	font-size: 11px;
+	margin-top: auto;
+	text-align: left;
+}
+.post-wrap .post .post-content .post-lastEdit br {
+	display: none;
+}
 .post-wrap .post .post-content fieldset {
 	border: 1px solid rgb(214, 214, 214);
 	border-radius: 4px;
