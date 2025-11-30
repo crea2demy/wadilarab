@@ -1340,6 +1340,10 @@ body:not(.nav-ready) .navlinks {
 	margin-top: auto;
   	padding: 0;
 }
+.post-wrap .post .post-footer .post-footer-actions {
+	display: flex;
+	align-items: center;
+}
 .post-wrap .post .post-footer .post-footer-actions::before, .post-wrap .post .post-footer .post-footer-actions::after {
 	content: '';
   	display: table;
@@ -1353,8 +1357,9 @@ body:not(.nav-ready) .navlinks {
 }
 .post-wrap .post .post-footer .post-footer-actions .post-like-vote {
 	display: none;
-  	float: right;
-    margin-right: -3px;
+  	/*float: right;
+    margin-right: -3px;*/
+	margin-left: auto;
 }
 .post-wrap .post .post-footer .post-footer-actions .post-like-vote.likes-active, .post-wrap .post .post-footer .post-footer-actions .post-like-vote.vote-active {
 	display: block
@@ -1408,7 +1413,9 @@ body:not(.nav-ready) .navlinks {
   	padding: 0 2px 0 0;
 }
 .post-wrap .post .post-footer .post-footer-actions .post-buttons {
-  	margin-left: -3px;
+  	/*margin-left: -3px;*/
+	float: none;
+	margin-right: auto;
 }
 .post-buttons li + li {
 	margin-right: 5px;
