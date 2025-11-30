@@ -1378,8 +1378,8 @@ body:not(.nav-ready) .navlinks {
 	background-color: unset;
 }
 .post-buttons .selected {
-	background-color: unset;
-	color: #8fc758 !important;
+	background-color: unset !important;
+	color: #8fc758;
 }
 .post-buttons span i, .post-buttons a i {
 	display: none;
