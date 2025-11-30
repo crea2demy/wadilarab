@@ -1242,6 +1242,7 @@ body:not(.nav-ready) .navlinks {
     align-items: flex-end;
     flex-wrap: wrap;
   	font-size: 12px;
+	margin-bottom: 0;
   	padding-bottom: 3px;
 }
 .post-wrap .post .post-head::before, .post-wrap .post .post-head::after {
@@ -1261,7 +1262,7 @@ body:not(.nav-ready) .navlinks {
 }
 .post-wrap .post .post-head .post-head-left {
   	display: flex;
-	  float: left;
+	float: left;
   	margin-right: auto;
 }
 .post-wrap .post .post-head .post-head-right > li, .post-wrap .post .post-head .post-head-left > li {
@@ -1275,13 +1276,15 @@ body:not(.nav-ready) .navlinks {
 .post-wrap .post .post-content {
     display: flex;
     flex-direction: column;
-	  flex: 1 1 auto;
-  	height: 100%;
+  	flex: 1 1 auto;
+	line-height: 21px;
+	margin-bottom: 0;
   	min-height: 1px;
   	position: relative;
+	word-wrap: normal;
 }
 .post-wrap .post .post-content .content {
-	  flex-grow: 1;
+	flex-grow: 1;
   	margin: 10px 0;
 }
 .post-wrap .post .post-footer {
@@ -1292,27 +1295,27 @@ body:not(.nav-ready) .navlinks {
   	font-size: 13px;
   	height: auto;
   	margin: 0;
-	  margin-top: auto;
+	margin-top: auto;
   	padding: 6px;
 }
 .post-wrap .post .post-footer .post-footer-actions::before, .post-wrap .post .post-footer .post-footer-actions::after {
-	  content: '';
+	content: '';
   	display: table;
 }
 .post-wrap .post .post-footer .post-footer-actions::after {
-	  clear: both;
+	clear: both;
 }
 .post-wrap .post .post-footer .post-footer-actions .post-like-vote, .post-wrap .post .post-footer .post-footer-actions .post-buttons {
     font-size: 13px;
     margin-top: 10px;
 }
 .post-wrap .post .post-footer .post-footer-actions .post-like-vote {
-	  display: none;
+	display: none;
   	float: right;
     margin-right: -3px;
 }
 .post-wrap .post .post-footer .post-footer-actions .post-like-vote.likes-active, .post-wrap .post .post-footer .post-footer-actions .post-like-vote.vote-active {
-	  display: block
+	display: block
 }
 .rep-button, .rep-button:active, .rep-button:focus, .post-buttons a, .post-buttons span {
   	background-color: rgba(0, 0, 0, 0);
@@ -1321,18 +1324,18 @@ body:not(.nav-ready) .navlinks {
   	color: rgb(38, 83, 115);
   	font-size: 13px;
   	margin: 0;
-	  padding: 0;
+	padding: 0;
 }
 .rep-button.fa_dislike {
-	  display: none;
+	display: none;
 }
 .rep-button + .rep-button {
-	  margin-left: 5px;
+	margin-left: 5px;
 }
 .rep-button:hover {
   	box-shadow: none;
   	color: rgb(64, 138, 191);
-	  filter: none;
+	filter: none;
 }
 .rep-button.fa_liked {
   	color: #4CAF50;
@@ -1374,7 +1377,38 @@ body:not(.nav-ready) .navlinks {
 .post-buttons span i, .post-buttons a i {
 	display: none;
 }
-.post-buttons a::before {
+.post-buttons a::before, .post-buttons span::before {
 	font-family: 'Font Awesome 7 Pro';
   	padding: 0 3px;
+}
+.post-buttons span[title="تشغيل/تعطيل الإقتباس المتعدد"]::before {
+  	content: '\e234';
+}
+.post-buttons span[title="تشغيل/تعطيل الإقتباس المتعدد"]::after {
+  	content: 'اقتباس متعدد';
+}
+.post-buttons a[title="رد مع اقتباس نص المساهمة"]::before {
+  	content: '\f10e';
+}
+.post-buttons a[title="رد مع اقتباس نص المساهمة"]::after {
+  	content: 'اقتباس';
+}
+.post-buttons a[title="تعديل/حذف هذه المساهمة"]::before {
+  	content: '\f4ff';
+}
+.post-buttons a[title="تعديل/حذف هذه المساهمة"]::after {
+  	content: 'تعديل';
+}
+.post-buttons a[title="حذف هذه المساهمة"]::before {
+  	content: '\f00d';
+}
+.post-buttons a[title="حذف هذه المساهمة"]::after {
+  	content: 'حذف';
+}
+.post-buttons a[title="استعرض رقم الإيبي IP للمُرسل"]::before {
+  	content: '';
+}
+.post-buttons a[title="استعرض رقم الإيبي IP للمُرسل"]::after {
+  	content: 'IP';
+  	font-family: Tahoma;
 }
