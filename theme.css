@@ -1438,7 +1438,7 @@ body:not(.nav-ready) .navlinks {
   	padding: 0 3px;
 }
 .post-buttons span[title="تشغيل/تعطيل الإقتباس المتعدد"]::before {
-  	content: '\e234';
+  	content: '\2b';
 }
 .post-buttons span[title="تشغيل/تعطيل الإقتباس المتعدد"]::after {
   	content: 'اقتباس متعدد';
