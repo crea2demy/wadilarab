@@ -1463,7 +1463,7 @@ body:not(.nav-ready) .navlinks {
 	transition: all .25s ease, -xf-opacity .25s ease;
 }
 .fa_like_list::before {
-	color: rgb(242, 18, 22);
+	color: rgb(242, 17, 21);
 	content: '\f004\f004';
 	font-family: 'Font Awesome 7 Duotone';
 	margin-right: 5px;
