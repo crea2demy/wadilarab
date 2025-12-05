@@ -1008,6 +1008,9 @@ body:not(.nav-ready) .navlinks {
 	padding: 0;
 	width: 100%;
 }
+.block.block-ptrafic .block-content.ptrafic br {
+	display: none;
+}
 .block.block-ptrafic .block-content.ptrafic a {
 	display: block;
 	font-size: 17px;
