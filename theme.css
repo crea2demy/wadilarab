@@ -1150,9 +1150,14 @@ body:not(.nav-ready) .navlinks {
 	direction: rtl;
 }
 .post-wrap + .topic-actions .quick-nav-topics a.mark-buttons {
+	border-bottom-color: rgb(201, 201, 201);
+	border-left-color: rgb(201, 201, 201);
+	border-right-color: rgb(227, 227, 227);
+	border-top-color: rgb(227, 227, 227);
+	border-style: solid;
+	border-width: 1px;
 	margin: 0;
 }
-
 .topic-actions .quick-nav-topics a span {
 	  vertical-align: unset;
 }
