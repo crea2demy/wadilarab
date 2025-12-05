@@ -1407,6 +1407,7 @@ body:not(.nav-ready) .navlinks {
   	background-color: rgba(0, 0, 0, 0);
 }
 .rep-cat i {
+	font-family: 'Font Awesome 6 Pro';
   	font-size: inherit;
 }
 .rep-nb {
