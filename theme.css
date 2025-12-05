@@ -1021,6 +1021,10 @@ body:not(.nav-ready) .navlinks {
 .topic-actions {
 	  padding-bottom: 6px;
 }
+.post-wrap + .topic-actions {
+    padding-bottom: 0;
+	padding-top: 6px;
+}
 .topic-actions::before, .topic-actions::after, .topic-actions .quick-nav-topics::before, .topic-actions .quick-nav-topics::after {
 	  content: " ";
     display: table;
@@ -1177,7 +1181,10 @@ body:not(.nav-ready) .navlinks {
   	color: rgb(20, 20, 20);
   	font-size: 15px;
   	line-height: 21px;
-  	margin-bottom: 12px;
+  	margin-bottom: 0;
+}
+.post-wrap + .post-wrap {
+	margin-top: 12px;
 }
 .post-wrap .post-header {
 	  display: none;
