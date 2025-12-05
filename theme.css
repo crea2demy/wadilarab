@@ -1163,9 +1163,11 @@ body:not(.nav-ready) .navlinks {
 }
 .post-wrap + .topic-actions .quick-nav-topics a.mark-buttons[href*="?unwatch=topic"]::before {
 	content: '\f1f6';
+	margin: 0;
 }
 .post-wrap + .topic-actions .quick-nav-topics a.mark-buttons[href*="?watch=topic"]::before {
 	content: '\e62c';
+	margin: 0;
 }
 .topic-actions .quick-nav-topics a span {
 	  vertical-align: unset;
