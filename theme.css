@@ -1471,12 +1471,19 @@ body:not(.nav-ready) .navlinks {
 .fa_like_list, .fa_dislike_list, .option_voters_list {
 	background-color: rgb(245, 245, 245);
 	border: 1px solid rgb(224, 224, 224);
-	border-right: 2px solid rgb(77, 115, 38);
+	border-right: 2px solid;
+	border-radius: 4px 10px 10px 4px;
 	color: rgb(20, 20, 20);
 	font-size: 12px;
 	margin-top: 10px;
     padding: 6px;
 	transition: all .25s ease, -xf-opacity .25s ease;
+}
+.fa_like_list, .option_voters_list {
+	border-right-color: rgb(77, 115, 38);
+}
+.fa_dislike_list {
+	border-right-color: rgb(244, 67, 54);
 }
 .fa_like_list::before {
 	color: rgb(242, 17, 21);
