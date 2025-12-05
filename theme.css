@@ -763,8 +763,8 @@ body:not(.nav-ready) .navlinks {
 .page-header .page-title .btn, .topic-header .page-title .btn {
 	  margin-bottom: 5px;
 }
-.page-header .page-title .btn[href*="&mode=newtopic"]::before, .topic-header .page-title .btn[href*="&mode=newtopic"]::before, .topic-header .page-title .btn[href*="&mode=reply"]::before {
-	  content: '\f044';
+.page-header .page-title .btn[href*="&mode=newtopic"]::before, .topic-header .page-title .btn[href*="&mode=newtopic"]::before, .topic-header .page-title .btn[href*="&mode=reply"]::before, .post-wrap + .topic-actions .quick-nav-topics a.mark-buttons::before {
+	content: '\f044';
   	font-family: 'Font Awesome 6 Pro';
   	font-size: 15px;
   	margin-left: 6px;
@@ -1157,6 +1157,12 @@ body:not(.nav-ready) .navlinks {
 	border-style: solid;
 	border-width: 1px;
 	margin: 0;
+}
+.post-wrap + .topic-actions .quick-nav-topics a.mark-buttons i {
+	display: none;
+}
+.post-wrap + .topic-actions .quick-nav-topics a.mark-buttons[href^="?unwatch=topic"]::before {
+	content: '\f1f6';
 }
 .topic-actions .quick-nav-topics a span {
 	  vertical-align: unset;
