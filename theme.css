@@ -1485,9 +1485,15 @@ body:not(.nav-ready) .navlinks {
 .fa_dislike_list {
 	border-right-color: rgb(244, 67, 54);
 }
+.fa_like_list::before, .fa_dislike_list::before {
+	font-family: 'Font Awesome 7 Duotone';
+	margin-right: 5px;
+}
 .fa_like_list::before {
 	color: rgb(242, 17, 21);
 	content: '\f004\f004';
-	font-family: 'Font Awesome 7 Duotone';
-	margin-right: 5px;
+}
+.fa_dislike_list::before {
+	color: rgb(20, 20, 20);
+	content: '\f7a9\f7a9';
 }
