@@ -1014,6 +1014,7 @@ body:not(.nav-ready) .navlinks {
 .block.block-ptrafic .block-content.ptrafic a {
 	display: block;
 	font-size: 17px;
+	margin-bottom: 0;
 	padding: 10px 8px;
 	text-decoration: none;
 	vertical-align: middle;
