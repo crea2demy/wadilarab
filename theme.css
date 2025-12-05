@@ -1495,5 +1495,5 @@ body:not(.nav-ready) .navlinks {
 }
 .fa_dislike_list::before {
 	color: rgb(20, 20, 20);
-	content: '\f7a9\f7a9';
+	content: '\f165\f165';
 }
