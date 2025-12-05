@@ -1004,11 +1004,15 @@ body:not(.nav-ready) .navlinks {
 	display: table;
     table-layout: fixed;
     border-collapse: collapse;
+	margin: 0;
+	padding: 0;
 	width: 100%;
 }
 .block.block-ptrafic .block-content.ptrafic a {
-	display: table-cell;
+	display: block;
 	font-size: 17px;
+	padding: 10px 8px;
+	text-decoration: none;
 	vertical-align: middle;
 	width: 100%;
 }
