@@ -1012,13 +1012,14 @@ body:not(.nav-ready) .navlinks {
 	display: none;
 }
 .block.block-ptrafic .block-content.ptrafic a {
+	display: block;
 	font-size: 17px;
 	padding: 10px 8px;
 	text-decoration: none;
 	vertical-align: middle;
 	width: 100%;
 }
-.block.block-ptrafic .block-content.ptrafic a + a {
+.block.block-ptrafic .block-content.ptrafic a + br + a {
 	border-top: 1px solid rgb(230, 230, 230);
 }
 /* topic options */
