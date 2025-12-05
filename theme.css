@@ -979,24 +979,41 @@ body:not(.nav-ready) .navlinks {
     border-bottom-color: #cbcbcb;
     border-right-color: #d8d8d8;
     border-radius: 4px;
-	  margin-bottom: 20px;
+	margin-bottom: 20px;
 }
 .block .block-header {
-	  box-shadow: none;
+	background-image: linear-gradient(0deg, rgb(140, 198, 83), rgb(145, 200, 91));
+    border-radius: 4px 4px 0 0;
+	box-shadow: none;
     color: #fefefe;
-    border-radius: 3px 3px 0 0;
+	font-size: 17px;
     padding: 6px 10px;
 }
 .block .block-content {
-  	border-radius: 0 0 3px 3px;
+  	border-radius: 0 0 4px 4px;
   	box-shadow: none;
   	font-size: 13px;
-	  list-style: none;
-	  margin: 0;
+	list-style: none;
+	margin: 0;
     padding: 6px 10px;
 }
 .block .block-header + .block-content {
 	  margin-top: 0;
+}
+.block.block-ptrafic .block-content.ptrafic {
+	display: table;
+    table-layout: fixed;
+    border-collapse: collapse;
+	width: 100%;
+}
+.block.block-ptrafic .block-content.ptrafic a {
+	display: table-cell;
+	font-size: 17px;
+	vertical-align: middle;
+	width: 100%;
+}
+.block.block-ptrafic .block-content.ptrafic a + a {
+	border-top: 1px solid rgb(230, 230, 230);
 }
 /* topic options */
 .topic-header #page-desc ul {
