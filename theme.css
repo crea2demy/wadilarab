@@ -1490,10 +1490,10 @@ body:not(.nav-ready) .navlinks {
 	margin-right: 5px;
 }
 .fa_like_list::before {
-	color: rgb(242, 17, 21);
+	color: rgb(77, 115, 38);
 	content: '\f004\f004';
 }
 .fa_dislike_list::before {
-	color: rgb(20, 20, 20);
+	color: rgb(244 67 54);
 	content: '\f7a9\f7a9';
 }
