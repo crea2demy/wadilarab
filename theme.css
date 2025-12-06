@@ -75,11 +75,11 @@ a, a:link, a:visited, a:hover {
     .wrap {width: 1170px;}
 }*/
 .btn {
-	  background-color: rgb(94, 186, 94);
+	background-color: rgb(94, 186, 94);
   	border: 1px solid rgb(112, 194, 112);
   	border-radius: 4px;
   	box-shadow: none;
-  	color: var(--white-color);
+  	color: var(--white-color) !important;
   	display: inline-flex;
   	align-items: center;
   	justify-content: center;
