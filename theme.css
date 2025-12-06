@@ -1558,3 +1558,103 @@ body:not(.nav-ready) .navlinks {
 	color: rgb(244 67 54);
 	content: '\f7a9\f7a9';
 }
+.f-jump {
+    	background-color: var(--white-color);
+    	border: 1px solid rgb(204, 204, 204);
+    	border-radius: 5px;
+    	color: rgb(20, 20, 20);
+    	display: flex;
+    	align-items: center;
+    	justify-content: flex-start;
+    	height: 67px;
+    	line-height: 67px;
+    	margin-bottom: 10px;
+    	margin-top: 12px;
+    	width: 100%;
+    	-webkit-border-radius: 5px;
+    	-moz-border-radius: 5px;
+    	-ms-border-radius: 5px;
+    	-o-border-radius: 5px;
+}
+.f-jump .f-jump-right, .f-jump .f-jump-left {
+    	display: flex;
+    	align-items: center;
+}
+.f-jump .f-jump-right {
+    	border-left: 1px solid rgb(224, 224, 224);
+    	font-size: 17px;
+    	flex-shrink: 0;
+    	width: 150px;
+    	justify-content: center;
+}
+.f-jump .f-jump-left {
+    	flex-grow: 1;
+    	padding-left: 12px;
+    	padding-right: 12px;
+}
+.f-jump .f-jump-left form label {
+    	cursor: auto;
+    	margin-bottom: auto;
+    	width: 100%;
+}
+.f-jump .f-jump-left form label > span, .f-jump .f-jump-left form label .jumpbox-wrap .btn, .f-jump .f-jump-left form label .quickmod-wrap input {
+    	display: none;
+}
+.f-jump .f-jump-left form label .jumpbox-wrap, .f-jump .f-jump-left form label .jumpbox-wrap .select, .f-jump .f-jump-left form label .jumpbox-wrap .select select,
+.f-jump .f-jump-left form label .quickmod-wrap, .f-jump .f-jump-left form label .quickmod-wrap .select, .f-jump .f-jump-left form label .quickmod-wrap .select select {
+    	margin-bottom: auto;
+}
+.f-jump .f-jump-left form label .jumpbox-wrap .select, .f-jump .f-jump-left form label .quickmod-wrap .select {
+    	display: flex;
+    	margin-left: auto;
+    	margin-top: auto;
+    	max-width: 100%;
+}
+.f-jump .f-jump-left form label .jumpbox-wrap .select::after, .f-jump .f-jump-left form label .quickmod-wrap .select::after {
+    	display: none;
+}
+.f-jump .f-jump-left form label .jumpbox-wrap .select select, .f-jump .f-jump-left form label .quickmod-wrap .select select {
+    	background-color: rgb(250, 250, 250);
+    	background-image: url('https://raw.githubusercontent.com/crea2demy/wadilarab/refs/heads/main/select.svg');
+    	background-position: left;
+    	background-repeat: no-repeat;
+    	background-size: 15px;
+    	border: 1px solid rgb(224, 224, 224);
+    	border-radius: 4px;
+    	box-sizing: border-box;
+    	color: rgb(20, 20, 20);
+    	display: inline-flex;
+    	align-items: center;
+    	justify-content: flex-start;
+    	font-size: 15px;
+    	height: 43px;
+    	padding-right: 15px;
+    	text-align: right;
+    	transition: all .25s ease;
+    	width: 100%;
+    	-webkit-border-radius: 4px;
+    	-moz-border-radius: 4px;
+    	-ms-border-radius: 4px;
+    	-o-border-radius: 4px;
+    	-webkit-transition: all .25s ease;
+    	-moz-transition: all .25s ease;
+    	-ms-transition: all .25s ease;
+    	-o-transition: all .25s ease;
+}
+.f-jump .f-jump-left, .f-jump .f-jump-left form {
+    	display: flex !important;
+    	flex-grow: 1 !important;
+    	width: 100% !important;
+}
+.f-jump .f-jump-left form label .jumpbox-wrap, .f-jump .f-jump-left form label .quickmod-wrap {
+    	flex-grow: 1 !important;
+    	display: flex !important;
+    	max-width: none !important;
+}
+.f-jump .f-jump-left form label .jumpbox-wrap .select, .f-jump .f-jump-left form label .jumpbox-wrap .select select,
+.f-jump .f-jump-left form label .quickmod-wrap .select, .f-jump .f-jump-left form label .quickmod-wrap .select select {
+    	display: block !important;
+    	width: 100% !important;
+    	box-sizing: border-box !important;
+    	min-width: unset !important;
+}
