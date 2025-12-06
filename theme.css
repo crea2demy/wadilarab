@@ -1000,6 +1000,10 @@ body:not(.nav-ready) .navlinks {
 .block .block-header + .block-content {
 	  margin-top: 0;
 }
+.block .block-header + .block-content .poster-list {
+	margin: 0;
+	padding: 0;
+}
 .block.block-ptrafic .block-content.ptrafic {
 	display: table;
     table-layout: fixed;
